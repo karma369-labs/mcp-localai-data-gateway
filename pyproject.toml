@@ -1,0 +1,18 @@
+[project]
+name = "localai-data-gateway"
+version = "0.1.0"
+description = "An enterprise MCP server for local data validation and policy matching based on the ReliefAI framework."
+authors = [{ name = "Ramakanth Evani" }]
+dependencies = [
+    "mcp>=0.1.0",
+    "pydantic>=2.0.0",
+    "fastapi>=0.100.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0"
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
